@@ -16,6 +16,11 @@ things = [
     "You dress so cute",
     "Your lips and teeth when you laugh",
     "You are a sandwich master"
+    "Your hairbrained schemes",
+    "When you rub my neck when I drive",
+    "Your AI emojis",
+    "Your hair is soft, long, and glorious",
+    "Great socks",
     # ... add all 50+ here, one per line ...
 ]
 
@@ -29,3 +34,4 @@ if st.button("😍 Tell me something he loves about me", use_container_width=Tru
 else:
 
     st.markdown("*Tap the button for a surprise!*")
+
