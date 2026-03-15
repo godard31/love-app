@@ -78,8 +78,13 @@ else:
 st.markdown("---")
 
 # Second button: show Lifetime movies
-if st.button("🎥 Show Lifetime movies we've watched", use_container_width=True):
+if "show_movies" not in st.session_state:
+    st.session_state.show_movies = False
+
+if st.button("🎥 Show / hide Lifetime movies", use_container_width=True):
+    st.session_state.show_movies = not st.session_state.show_movies
+
+if st.session_state.show_movies:
     st.markdown("### 🎬 Lifetime movies we've watched")
     for movie in lifetime_movies:
         st.markdown(f"- {movie}")
-
