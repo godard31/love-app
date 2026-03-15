@@ -1,4 +1,4 @@
-import streamlit as st
+by import streamlit as st
 import random
 
 things = [
@@ -64,7 +64,8 @@ lifetime_movies = [
     "The Wrong Neighbor",
     "The Wrong Prince Charming",
     "The Wrong Tenant",
-    "Swindler Seduction"
+    "Swindler Seduction",
+    "Be Careful What You Say"
     # ...
 ]
 
