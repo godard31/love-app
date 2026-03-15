@@ -60,8 +60,11 @@ things = [
 
 lifetime_movies = [
     "The Wrong Real Estate Agent",
-    "Movie 2",
-    "Movie 3",
+    "The Wrong Patient",
+    "The Wrong Neighbor",
+    "The Wrong Prince Charming",
+    "The Wrong Tenant",
+    "Swindler Seduction"
     # ...
 ]
 
