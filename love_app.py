@@ -58,10 +58,28 @@ things = [
 ]
 
 
+lifetime_movies = [
+    "Movie 1",
+    "Movie 2",
+    "Movie 3",
+    # ...
+]
+
 st.set_page_config(page_title="Things He Loves About me", page_icon="💕", layout="centered")
 st.markdown("## 💕 Things He Loves About Me 💕")
 
 if st.button("😍 Tell me something he loves about me", use_container_width=True):
+
+if "show_movies" not in st.session_state:
+    st.session_state.show_movies = False
+
+if st.button("🎥 Show / hide Lifetime movies", use_container_width=True):
+    st.session_state.show_movies = not st.session_state.show_movies
+
+if st.session_state.show_movies:
+    st.markdown("### 🎬 Lifetime movies we've watched")
+    for movie in lifetime_movies:
+        st.markdown(f"- {movie}")
     love = random.choice(things)
     st.markdown(f"**{love}** ❤️")
 else:
