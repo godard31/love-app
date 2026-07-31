@@ -53,6 +53,8 @@ things = [
     "You  got us Ikea furniture🍓",
     "We pressure wash together",
     "Hundreds of feet of chain unravelling"
+    "That you laugh about pictures of my dad that we send to my sister"
+    "gardening with you"
     
     # ... add all 50+ here, one per line ...
 ]
